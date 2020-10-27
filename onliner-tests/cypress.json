@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://www.onliner.by",
+    "ignoreTestFiles": "**/examples/*",
+    "viewportHeight": 1080,
+    "viewportWidth":  1920
+}
