@@ -8,12 +8,11 @@ export class ItemPage{
     }
 
     isItemInTheBasket(){
-        cy.get('#cart-desktop').find('span').should('contain','1')
+        cy.get('#cart-desktop').should('be.visible').find('span').should('contain','1')
     }
 
     goToBasketPage(){
-        cy.wait(2000)
-        cy.get('#cart-desktop').click()
+        cy.get('#cart-desktop').should('be.visible').click()
     }
 
 }
